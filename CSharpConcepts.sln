@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovarianceAndContraVariance
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonExample", "SingletonExample\SingletonExample.csproj", "{EC2170EB-C450-492B-9FFF-96EAAFFFE7C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMissingNum", "FindMissingNum\FindMissingNum.csproj", "{F21DA012-8105-4378-BB26-52F9B1120A8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EC2170EB-C450-492B-9FFF-96EAAFFFE7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC2170EB-C450-492B-9FFF-96EAAFFFE7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC2170EB-C450-492B-9FFF-96EAAFFFE7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F21DA012-8105-4378-BB26-52F9B1120A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21DA012-8105-4378-BB26-52F9B1120A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21DA012-8105-4378-BB26-52F9B1120A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21DA012-8105-4378-BB26-52F9B1120A8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
