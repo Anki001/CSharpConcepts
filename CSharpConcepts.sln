@@ -5,9 +5,11 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovarianceAndContraVariance", "CovarianceAndContraVariance\CovarianceAndContraVariance.csproj", "{6E02684D-8070-4FA1-801F-0B40F0380B28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonExample", "SingletonExample\SingletonExample.csproj", "{EC2170EB-C450-492B-9FFF-96EAAFFFE7C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonExample", "SingletonExample\SingletonExample.csproj", "{EC2170EB-C450-492B-9FFF-96EAAFFFE7C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMissingNum", "FindMissingNum\FindMissingNum.csproj", "{F21DA012-8105-4378-BB26-52F9B1120A8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMissingNum", "FindMissingNum\FindMissingNum.csproj", "{F21DA012-8105-4378-BB26-52F9B1120A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatchAndFinallyBlock", "CatchAndFinallyBlock\CatchAndFinallyBlock.csproj", "{B68111B5-BC6D-4398-90FE-E203319ACD3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F21DA012-8105-4378-BB26-52F9B1120A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F21DA012-8105-4378-BB26-52F9B1120A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F21DA012-8105-4378-BB26-52F9B1120A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68111B5-BC6D-4398-90FE-E203319ACD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68111B5-BC6D-4398-90FE-E203319ACD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68111B5-BC6D-4398-90FE-E203319ACD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68111B5-BC6D-4398-90FE-E203319ACD3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
