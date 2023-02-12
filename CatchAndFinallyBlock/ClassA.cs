@@ -13,17 +13,31 @@ namespace CatchAndFinallyBlock
         {
             try
             {
-                a++;
-                throw new Exception("somethig is wrong");
+                try
+                {
+                    a++;
+                    throw new Exception("somethig is wrong");
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Inner Catch");
+                    throw; // if commented - Not all code path returns the value
+                }
+                finally
+                {
+                    Console.WriteLine("Inner Finally");
+                }
             }
             catch
             {
                 a = a + 1;
+                Console.WriteLine("Outer Catch");
                 return a;
             }
             finally
             {
                 a = a + 1;
+                Console.WriteLine("Outer Finally");
             }
         }
     }
