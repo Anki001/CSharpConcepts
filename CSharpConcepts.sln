@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDesignPattern", "Fac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClassExample", "StaticClassExample\StaticClassExample.csproj", "{5744EEA2-19C2-40E2-AA56-DFAD75A7A2B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{1FD94730-4D7C-4F2C-A894-7F6E447121A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{5744EEA2-19C2-40E2-AA56-DFAD75A7A2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5744EEA2-19C2-40E2-AA56-DFAD75A7A2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5744EEA2-19C2-40E2-AA56-DFAD75A7A2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD94730-4D7C-4F2C-A894-7F6E447121A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD94730-4D7C-4F2C-A894-7F6E447121A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD94730-4D7C-4F2C-A894-7F6E447121A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD94730-4D7C-4F2C-A894-7F6E447121A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
