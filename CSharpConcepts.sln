@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyDesignPattern", "Proxy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDesignPattern", "FactoryDesignPattern\FactoryDesignPattern.csproj", "{34A80096-617F-4B40-8131-4A031B5A2153}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClassExample", "StaticClassExample\StaticClassExample.csproj", "{5744EEA2-19C2-40E2-AA56-DFAD75A7A2B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{34A80096-617F-4B40-8131-4A031B5A2153}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34A80096-617F-4B40-8131-4A031B5A2153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34A80096-617F-4B40-8131-4A031B5A2153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5744EEA2-19C2-40E2-AA56-DFAD75A7A2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5744EEA2-19C2-40E2-AA56-DFAD75A7A2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5744EEA2-19C2-40E2-AA56-DFAD75A7A2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5744EEA2-19C2-40E2-AA56-DFAD75A7A2B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
