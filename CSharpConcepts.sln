@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClassExample", "Stati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{1FD94730-4D7C-4F2C-A894-7F6E447121A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldExample", "YieldExample\YieldExample.csproj", "{B077C5B6-7DF3-4814-B0E9-7513570BE300}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{1FD94730-4D7C-4F2C-A894-7F6E447121A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FD94730-4D7C-4F2C-A894-7F6E447121A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FD94730-4D7C-4F2C-A894-7F6E447121A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B077C5B6-7DF3-4814-B0E9-7513570BE300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B077C5B6-7DF3-4814-B0E9-7513570BE300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B077C5B6-7DF3-4814-B0E9-7513570BE300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B077C5B6-7DF3-4814-B0E9-7513570BE300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
