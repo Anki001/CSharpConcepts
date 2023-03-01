@@ -16,4 +16,6 @@ Console.WriteLine($"Serialize string is \n {jsonString}");
 
 WeatherForecast? newWetherForcastObj = JsonSerializer.Deserialize<WeatherForecast>(jsonString);
 
+Console.WriteLine($"Today's {wetherForCast.Date} wether forcast: \n Temprature: {wetherForCast.TemperatureCelsius} \n Summary: {wetherForCast.Summary}");
+
 Console.ReadLine();
