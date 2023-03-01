@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YieldExample", "YieldExample\YieldExample.csproj", "{B077C5B6-7DF3-4814-B0E9-7513570BE300}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemTextJson", "SystemTextJson\SystemTextJson.csproj", "{684D8488-741F-489C-8A90-C5DB16900F9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemTextJson", "SystemTextJson\SystemTextJson.csproj", "{684D8488-741F-489C-8A90-C5DB16900F9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICloneableExample", "ICloneableExample\ICloneableExample.csproj", "{74CC13C4-8614-4A8E-8224-A1A511A96B76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICloneableExample", "ICloneableExample\ICloneableExample.csproj", "{74CC13C4-8614-4A8E-8224-A1A511A96B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingStatement", "UsingStatement\UsingStatement.csproj", "{50F93EA6-3107-4443-851F-4380490BE87E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{74CC13C4-8614-4A8E-8224-A1A511A96B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74CC13C4-8614-4A8E-8224-A1A511A96B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74CC13C4-8614-4A8E-8224-A1A511A96B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F93EA6-3107-4443-851F-4380490BE87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F93EA6-3107-4443-851F-4380490BE87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F93EA6-3107-4443-851F-4380490BE87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F93EA6-3107-4443-851F-4380490BE87E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
