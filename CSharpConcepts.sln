@@ -33,27 +33,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemTextJson", "SystemTex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICloneableExample", "ICloneableExample\ICloneableExample.csproj", "{74CC13C4-8614-4A8E-8224-A1A511A96B76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingStatement", "UsingStatement\UsingStatement.csproj", "{50F93EA6-3107-4443-851F-4380490BE87E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingStatement", "UsingStatement\UsingStatement.csproj", "{50F93EA6-3107-4443-851F-4380490BE87E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISerializableExample", "ISerializableExample\ISerializableExample.csproj", "{D7F67D8C-698F-4128-8BD9-8A14DB29AAA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISerializableExample", "ISerializableExample\ISerializableExample.csproj", "{D7F67D8C-698F-4128-8BD9-8A14DB29AAA8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLIDPrinciples", "SOLIDPrinciples", "{623A0848-4C21-4E00-AD1E-3AB00A3DCDB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{3FD4C4B8-8EA2-4B9E-8CD2-78C9F8A7AFBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{3FD4C4B8-8EA2-4B9E-8CD2-78C9F8A7AFBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClose", "OpenClose\OpenClose.csproj", "{BE5632EB-FEDF-4ADE-8BC3-63AE69443DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClose", "OpenClose\OpenClose.csproj", "{BE5632EB-FEDF-4ADE-8BC3-63AE69443DFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution", "LiskovSubstitution\LiskovSubstitution.csproj", "{65822951-53CA-4341-AE53-CE50D47CD7F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstitution", "LiskovSubstitution\LiskovSubstitution.csproj", "{65822951-53CA-4341-AE53-CE50D47CD7F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{35E42418-8E19-4BCA-94AE-E248399582CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{35E42418-8E19-4BCA-94AE-E248399582CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversion", "DependencyInversion\DependencyInversion.csproj", "{89269E58-EBA0-47C4-9AAE-73890917CF02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversion", "DependencyInversion\DependencyInversion.csproj", "{89269E58-EBA0-47C4-9AAE-73890917CF02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularFactoryPattern", "RegularFactoryPatern\RegularFactoryPattern.csproj", "{B7C52A68-38A5-4B96-A03C-714A87927AF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegularFactoryPattern", "RegularFactoryPatern\RegularFactoryPattern.csproj", "{B7C52A68-38A5-4B96-A03C-714A87927AF3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{A7F66A63-F2B1-4DB4-8111-20D62E44C131}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.Web", "Learning.Web\Learning.Web.csproj", "{F0693221-8914-4DA0-84C4-A57F2C082AF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning.Web", "Learning.Web\Learning.Web.csproj", "{F0693221-8914-4DA0-84C4-A57F2C082AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingBall", "BowlingBall\BowlingBall.csproj", "{E7324380-99B5-44DF-91A6-7B9E408E1009}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +159,10 @@ Global
 		{F0693221-8914-4DA0-84C4-A57F2C082AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0693221-8914-4DA0-84C4-A57F2C082AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0693221-8914-4DA0-84C4-A57F2C082AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7324380-99B5-44DF-91A6-7B9E408E1009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7324380-99B5-44DF-91A6-7B9E408E1009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7324380-99B5-44DF-91A6-7B9E408E1009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7324380-99B5-44DF-91A6-7B9E408E1009}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
