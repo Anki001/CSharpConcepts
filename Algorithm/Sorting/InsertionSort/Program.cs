@@ -12,6 +12,7 @@ for (int i = 1; i < unSortedArray.Length; i++)
     var key = unSortedArray[i];
     var j = i - 1;
 
+    // Move elements of unSortedArray[0..i-1], that are greater than key, to one position ahead of their current position
     while (j >= 0 && unSortedArray[j] > key)
     {
         unSortedArray[j + 1] = unSortedArray[j];
