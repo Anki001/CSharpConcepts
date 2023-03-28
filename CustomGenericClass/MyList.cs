@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CustomGenericClass
+﻿namespace CustomGenericClass
 {
-    internal class MyList<T>
+    internal class MyList<T> : IMyList<T>
     {
         private List<T> _items;
-
-        public MyList()
+        
+        public MyList(List<T> items)
         {
-            _items = new List<T>();
+            _items = items;
         }
+
+        public int Count => _items.Count;
 
         public void Add(T item)
         {
@@ -24,7 +20,5 @@ namespace CustomGenericClass
         {
             return _items[index];
         }
-
-        public int Count { get { return _items.Count; } }
     }
 }
