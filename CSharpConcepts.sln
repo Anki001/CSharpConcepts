@@ -69,7 +69,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility", "SOL
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Advance", "Advance", "{334D0B90-8020-44E8-B04F-76BE255BFAEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSamples", "LinqSamples\LinqSamples.csproj", "{54156179-A4EE-4CD9-A075-887F14F2B9C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqSamples", "LinqSamples\LinqSamples.csproj", "{54156179-A4EE-4CD9-A075-887F14F2B9C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution1", "SOLIDPrinciples\LiskovSubstitution1\LiskovSubstitution1.csproj", "{9C3557CB-C71E-4CC4-BEAB-19CA45A2D453}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{54156179-A4EE-4CD9-A075-887F14F2B9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54156179-A4EE-4CD9-A075-887F14F2B9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54156179-A4EE-4CD9-A075-887F14F2B9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3557CB-C71E-4CC4-BEAB-19CA45A2D453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3557CB-C71E-4CC4-BEAB-19CA45A2D453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3557CB-C71E-4CC4-BEAB-19CA45A2D453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3557CB-C71E-4CC4-BEAB-19CA45A2D453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -209,6 +215,7 @@ Global
 		{1F820D60-1984-4BEA-8310-3CCE95591481} = {623A0848-4C21-4E00-AD1E-3AB00A3DCDB7}
 		{B0155967-D593-4087-862D-20007CAD9184} = {623A0848-4C21-4E00-AD1E-3AB00A3DCDB7}
 		{334D0B90-8020-44E8-B04F-76BE255BFAEC} = {15380703-9D01-45D0-9D51-225590DA85DA}
+		{9C3557CB-C71E-4CC4-BEAB-19CA45A2D453} = {623A0848-4C21-4E00-AD1E-3AB00A3DCDB7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83D217C8-FF90-4F2A-80EB-28FA84E43268}
