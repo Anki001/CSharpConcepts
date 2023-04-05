@@ -5,12 +5,12 @@ Console.WriteLine(
                 "If you see different values, then 2 singletons were created (booo!!)",
                 "RESULT:");
 
-var process1 = new Thread(() =>
+Thread process1 = new(() =>
 {
     TestSingleton("FOO");
 });
 
-var process2 = new Thread(() =>
+Thread process2 = new(() =>
 {
     TestSingleton("BAR");
 });
