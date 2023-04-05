@@ -71,7 +71,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Advance", "Advance", "{334D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqSamples", "LinqSamples\LinqSamples.csproj", "{54156179-A4EE-4CD9-A075-887F14F2B9C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution1", "SOLIDPrinciples\LiskovSubstitution1\LiskovSubstitution1.csproj", "{9C3557CB-C71E-4CC4-BEAB-19CA45A2D453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstitution1", "SOLIDPrinciples\LiskovSubstitution1\LiskovSubstitution1.csproj", "{9C3557CB-C71E-4CC4-BEAB-19CA45A2D453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicateAndFunction", "PredicateAndFunction\PredicateAndFunction.csproj", "{497DB10E-BD80-471A-B0C9-B61753BE8BDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{9C3557CB-C71E-4CC4-BEAB-19CA45A2D453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C3557CB-C71E-4CC4-BEAB-19CA45A2D453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C3557CB-C71E-4CC4-BEAB-19CA45A2D453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497DB10E-BD80-471A-B0C9-B61753BE8BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497DB10E-BD80-471A-B0C9-B61753BE8BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497DB10E-BD80-471A-B0C9-B61753BE8BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497DB10E-BD80-471A-B0C9-B61753BE8BDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
