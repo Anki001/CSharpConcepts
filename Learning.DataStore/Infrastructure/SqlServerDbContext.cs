@@ -18,7 +18,7 @@ namespace Learning.DataStore.Infrastructure
             }
             _dbTransaction = _dbConnection.BeginTransaction();
         }
-
+        
         public void Commit()
         {
             _dbTransaction?.Commit();
@@ -137,9 +137,13 @@ namespace Learning.DataStore.Infrastructure
             return result;
         }
 
+        /// <summary>
+        ///  [Incomplete functionality] Need to write logic to check for what type of errors only, need to retry connecting DB
+        /// </summary>
+        /// <param name="state"></param>
+        /// <returns></returns>
         private static bool CanRetryOperation(string state)
-        {
-            // Need to write logic to check for what type of errors only need to retry connecting DB
+        {            
             if (state is null)
                 return false;
             return true;
