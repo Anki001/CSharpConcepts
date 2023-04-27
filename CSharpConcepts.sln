@@ -73,7 +73,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqSamples", "LinqSamples\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstitution1", "SOLIDPrinciples\LiskovSubstitution1\LiskovSubstitution1.csproj", "{9C3557CB-C71E-4CC4-BEAB-19CA45A2D453}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicateAndFunction", "PredicateAndFunction\PredicateAndFunction.csproj", "{497DB10E-BD80-471A-B0C9-B61753BE8BDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredicateAndFunction", "PredicateAndFunction\PredicateAndFunction.csproj", "{497DB10E-BD80-471A-B0C9-B61753BE8BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.DataStore", "Learning.DataStore\Learning.DataStore.csproj", "{58D10FB9-BC29-4339-BE52-023229DCF6CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +203,10 @@ Global
 		{497DB10E-BD80-471A-B0C9-B61753BE8BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{497DB10E-BD80-471A-B0C9-B61753BE8BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{497DB10E-BD80-471A-B0C9-B61753BE8BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D10FB9-BC29-4339-BE52-023229DCF6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D10FB9-BC29-4339-BE52-023229DCF6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D10FB9-BC29-4339-BE52-023229DCF6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D10FB9-BC29-4339-BE52-023229DCF6CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -222,6 +228,7 @@ Global
 		{B0155967-D593-4087-862D-20007CAD9184} = {623A0848-4C21-4E00-AD1E-3AB00A3DCDB7}
 		{334D0B90-8020-44E8-B04F-76BE255BFAEC} = {15380703-9D01-45D0-9D51-225590DA85DA}
 		{9C3557CB-C71E-4CC4-BEAB-19CA45A2D453} = {623A0848-4C21-4E00-AD1E-3AB00A3DCDB7}
+		{58D10FB9-BC29-4339-BE52-023229DCF6CE} = {A7F66A63-F2B1-4DB4-8111-20D62E44C131}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83D217C8-FF90-4F2A-80EB-28FA84E43268}
